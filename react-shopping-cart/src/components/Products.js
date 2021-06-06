@@ -1,4 +1,5 @@
 import React from 'react';
+import formatCurrency from '../util'
 
 
 function Products(props) {
@@ -15,7 +16,7 @@ function Products(props) {
                                  </a>
                                  <div className='product-price'>
                                      <div>
-                                         {product.price}
+                                         {formatCurrency(product.price)}
                                      </div>
                                      <button className='button-primary'>
                                          Add to Cart

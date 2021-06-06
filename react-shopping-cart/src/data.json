@@ -1,0 +1,68 @@
+{
+    "products":[
+        {
+            "id": "ecolana",
+            "image": "/images/ECOLANA.jpg",
+            "title": "Eco-lana",
+            "description": "Eco-lana disponible en colores y texturas diferentes",
+            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "price": 29.9
+        }, 
+        {
+            "id": "hilo-enserado",
+            "image": "/images/HILO-ENSERADO.jpg",
+            "title": "Hilo Enserado",
+            "description": "Hilo Enserado disponible en colores y texturas diferentes",
+            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "price": 30.5
+        }, 
+        {
+            "id": "hilo-macrame-prem",
+            "image": "/images/HILO-MACRAME-PREM.jpg",
+            "title": "Hilo Macramé Premium",
+            "description": "Hilo Macramé Premium disponible en colores y texturas diferentes",
+            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "price": 45.5
+        }, 
+        {
+            "id": "hilo-macrame",
+            "image": "/images/HILO-MACRAME.jpg",
+            "title": "Hilo Macramé",
+            "description": "Hilo Macramé disponible en colores y texturas diferentes",
+            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "price": 40
+        }, 
+        {
+            "id": "lana-color",
+            "image": "/images/LANA-COLOR.jpg",
+            "title": "Lana de Color",
+            "description": "Lana de Color disponible en colores y texturas diferentes",
+            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "price": 30
+        }, 
+        {
+            "id": "lanas-varias",
+            "image": "/images/LANAS-VARIAS.jpg",
+            "title": "Lanas Varias",
+            "description": "Lanas Varias disponible en colores y texturas diferentes",
+            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "price": 20
+        },
+        {
+            "id": "totora",
+            "image": "/images/TOTORA.jpg",
+            "title": "Totora",
+            "description": "Totoras disponible en colores y texturas diferentes",
+            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "price": 50
+        },
+        {
+            "id": "yute-color",
+            "image": "/images/YUTE-COLOR.jpg",
+            "title": "Yute",
+            "description": "Yute disponible en colores y texturas diferentes",
+            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "price": 15
+        }
+    ]
+}

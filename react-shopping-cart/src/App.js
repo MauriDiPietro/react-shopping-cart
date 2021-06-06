@@ -1,6 +1,11 @@
-
+import React, {useState} from 'react';
+import data from './data.json';
 
 function App() {
+  const [products, setProducts] = useState ([data.products]);
+  const [colors, setColors] = useState('');
+  const [sort, setSort] = useState('')
+
   return (
     <div className="grid-container">  
       <header>

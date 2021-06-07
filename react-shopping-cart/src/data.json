@@ -3,7 +3,7 @@
         {
             "id": "ecolana",
             "image": "/images/ECOLANA.jpg",
-            "title": "Eco-lana",
+            "title": "Ecolana",
             "description": "Eco-lana disponible en colores y texturas diferentes",
             "availableColours": ["Red", "White", "Black", "Yellow"],
             "price": 29.9
@@ -21,7 +21,7 @@
             "image": "/images/HILO-MACRAME-PREM.jpg",
             "title": "Hilo Macramé Premium",
             "description": "Hilo Macramé Premium disponible en colores y texturas diferentes",
-            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "availableColours": ["Red", "White"],
             "price": 45.5
         }, 
         {
@@ -29,7 +29,7 @@
             "image": "/images/HILO-MACRAME.jpg",
             "title": "Hilo Macramé",
             "description": "Hilo Macramé disponible en colores y texturas diferentes",
-            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "availableColours": ["Red", "White", "Black"],
             "price": 40
         }, 
         {
@@ -61,7 +61,7 @@
             "image": "/images/YUTE-COLOR.jpg",
             "title": "Yute",
             "description": "Yute disponible en colores y texturas diferentes",
-            "availableColours": ["Red", "White", "Black", "Yellow"],
+            "availableColours": ["Red", "Black", "Yellow"],
             "price": 15
         }
     ]

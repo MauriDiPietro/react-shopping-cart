@@ -12,6 +12,7 @@ function Filter(props) {
               props.filterProducts
             }
           >
+            <option value=""></option>
             <option value="Hilo">Hilo</option>
             <option value="Ecolana">Ecolana</option>
             <option value="Lana">Lana</option>

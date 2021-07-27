@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 import data from './data.json';
 import Products from './components/Products';
 import Filter from './components/Filter'
+import Cart from './components/Cart'
 
 function App() {
   const [products, setProducts] = useState (data.products);
   const [category, setCategory] = useState('');
- 
+  const [cartItems, setCartItems] = useState('');
 
 
 
@@ -22,6 +23,21 @@ setProducts(data.products);
    }
 }
 
+const addToCart = (product) => {
+  const cartSlice = cartItems.slice();
+  let alreadyInCart = false;
+  cartSlice.forEach((item)=> {
+    if(item._id === product._id) {
+      item.count++;
+      alreadyInCart = true;
+    }
+  });
+  if(!alreadyInCart){
+    cartItems.push({ ...product, count: 1});
+  }
+  setCartItems({cartItems})
+}
+
   return (
     <div className="grid-container">  
       <header>
@@ -31,10 +47,12 @@ setProducts(data.products);
        <div className='content'>
           <div className='main'>
             <Filter count={products.length} category={category} filterProducts={filterProducts}  />
-            <Products products={products} />
+            <Products products={products} addToCart={addToCart}/>
             {/* products es el state products, inicialmente se carga el data.json que dentro contiene el arreglo products */}
           </div>
-          <div className='sidebar'>Cart Items</div>
+          <div className='sidebar'>
+            <Cart cartItems={cartItems} />
+          </div>
        </div>
       </main>
       <footer>
